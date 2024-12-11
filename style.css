@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+} 
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("bg.jpg");
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2vw;
+
+    
+}
+.login{
+    height:80vh;
+    width:30%;
+    background-color: #F8E3CF;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 1vw;
+   
+    
+}
+.login img
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 20px;
+    
+    
+  
+}
+.heading h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.heading p{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.input{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.input label{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 8px;
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 13px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+
+  }
+  .login-btn {
+    background-color: #000;
+    color: #fff;
+  }
+  .google-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #f5f5f5;
+    font-weight: bold;
+  }
+  .google-btn img {
+   margin-right: 20px;
+
+   width: 30px;
+   height: 20px;
+   margin-bottom:2px;
+    }
+
+
+  .signup-text {
+    font-size: 14px;
+    color:gray;
+    margin-bottom: 2px;
+  }
+  
